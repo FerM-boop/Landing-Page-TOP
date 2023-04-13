@@ -1,11 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
+
 }
 
 .Header{
     background-color: #1F2937 ;
     display: flex;
     justify-content: flex-end;
+    padding-right: 120px;
 }
 
 .headerLink{
@@ -17,12 +19,38 @@ body{
 .Logo{
     margin-right: auto;
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: 600;
+    padding-left: 120px;
 }
 
 .firstPortion{
     display: flex;
+    background-color: #1F2937 ;
+    padding: 70px 120px 70px 120px;
+}
+
+.heroMain{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.heroSecondary{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0 10px 10px 0;
+}
+
+.heroButton{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+
 }
 
 .heroImg{
+    width: 350px;
 }
