@@ -1,9 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
-
+    margin: 0;
 }
 
-.Header{
+header{
     background-color: #1F2937 ;
     display: flex;
     justify-content: flex-end;
@@ -20,7 +20,7 @@ body{
     margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 600;
+    font-weight: bold;
     padding-left: 120px;
 }
 
@@ -33,7 +33,7 @@ body{
 .heroMain{
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 .heroSecondary{
@@ -48,9 +48,96 @@ body{
     padding: 5px 25px;
     border: none;
     border-radius: 5px;
-
 }
 
 .heroImg{
     width: 350px;
+    border-radius: 20px;
 }
+
+.secondPortion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 100px 100px 100px;
+}
+
+.secondPortionTitle{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.secondPortionItems{
+    display: flex;
+    gap: 20px;
+}
+
+.secondPortion img{
+    max-width: 100%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.thirdPortion{
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote{
+    font-weight: light;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.quoteAuthor{
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+}
+
+.callToAction{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    display: flex;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.callToActionMain{
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 550;
+}
+
+.callToActionSecondary{
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.callToActionButton{
+    border-radius: 5px;
+    border-color: #e5e7eb;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 5px 25px;
+}
+
+footer{
+    display: flex ;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 12px;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
