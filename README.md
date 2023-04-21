@@ -6,3 +6,7 @@ https://ferm-boop.github.io/Landing-Page-TOP/
 
 ## Screenshot
 ![Screenshot of the full site](./assets/landingPageSS.png)
+
+![Screenshot of the page with a smaller resolution to show reactiveness](./assets/landingPageReactive1.png)
+
+![Screenshot of the page with a different resolution to show reactiveness](./assets/landingPageReactive2.png)
