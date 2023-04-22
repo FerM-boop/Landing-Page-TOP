@@ -4,9 +4,12 @@ This is part of my "The Odin Project" foundations course, I coded my own html an
 ## Try it out!
 https://ferm-boop.github.io/Landing-Page-TOP/
 
-## Screenshot
+## Screenshots
+Full-screenshot
 ![Screenshot of the full site](./assets/landingPageSS.png)
 
+Reduced window size screen shot to show reactiveness
 ![Screenshot of the page with a smaller resolution to show reactiveness](./assets/landingPageReactive1.png)
 
+Larger window size screen shot to show reactiveness
 ![Screenshot of the page with a different resolution to show reactiveness](./assets/landingPageReactive2.png)
